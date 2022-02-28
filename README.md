@@ -5,13 +5,13 @@
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 <p align="center">
-    <a href="https://github.com/elkrien/catppuccin-papirus-folders/stargazers"><img alt="Stargazers" src="https://img.shields.io/github/stars/elkrien/catppuccin-papirus-folders?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41"></a>
+    <a href="https://github.com/elkrien/catppuccin-papirus-folders/stargazers"><img alt="Stargazers" src="https://img.shields.io/github/stars/elkrien/catppuccin-papirus-folders?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=D9E0EE&labelColor=1e1e28"></a>
     <a href="https://github.com/elkrien/catppuccin-papirus-folders/issues"><img src="https://img.shields.io/github/issues/elkrien/catppuccin-papirus-folders?colorA=1e1e28&colorB=f7be95&style=for-the-badge"></a>
     <a href="https://github.com/elkrien/catppuccin-papirus-folders/contributors"><img src="https://img.shields.io/github/contributors/elkrien/catppuccin-papirus-folders?colorA=1e1e28&colorB=b1e1a6&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/elkrien/catppuccin-papirus-folders/main/assets/cat-papirus-folders.png"/>
+  <img src="https://raw.githubusercontent.com/elkrien/catppuccin-papirus-folders/main/assets/folders.svg"/>
 </p>
 
 
@@ -20,12 +20,12 @@
 1. Make sure You have [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) installed.
 2. Clone this repository and change to cloned directory:
     ```
-    git clone https://github.com/elkrien/catppuccin-papirus-folders
+    git clone https://github.com/elkrien/catppuccin-papirus-folders.git
     cd catppuccin-papirus-folders
     ```
 3. Copy content of `src` to `/usr/share/icons/Papirus/`:
     ```
-    sudo cp /src/* /usr/share/icons/Papirus/  
+    sudo cp src/* /usr/share/icons/Papirus/  
     ```
 4. Use modified `papirus-folders` script to set colors of folders. For example to set Catppuccin Blue folders to Papirus-Dark run:
     ```
