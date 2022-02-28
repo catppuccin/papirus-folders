@@ -25,7 +25,7 @@
     ```
 3. Copy content of `src` to `/usr/share/icons/Papirus/`:
     ```
-    sudo cp src/* /usr/share/icons/Papirus/  
+    sudo cp -r src/* /usr/share/icons/Papirus  
     ```
 4. Use modified `papirus-folders` script to set colors of folders. For example to set Catppuccin Blue folders to Papirus-Dark run:
     ```
