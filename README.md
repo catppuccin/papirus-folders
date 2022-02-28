@@ -27,11 +27,11 @@
     ```
     sudo cp -r src/* /usr/share/icons/Papirus  
     ```
-4. Use modified `papirus-folders` script to set colors of folders. For example to set Catppuccin Blue folders to Papirus-Dark run:
+4. Use modified `papirus-folders` script to set colors of folders. For example to set Catppuccin Blue folders for Papirus-Dark theme:
     ```
     ./papirus-folders -C cat-blue --theme Papirus-Dark
     ```
-5. To check all available colors run:
+5. To check all available colors:
     ```
     ./papirus-folders -l
     ```
