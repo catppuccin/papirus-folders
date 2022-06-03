@@ -120,9 +120,10 @@ declare_colors() {
 		"carmine" "cyan" "darkcyan" "deeporange" "green" "grey"
 		"indigo" "magenta" "nordic" "orange" "palebrown" "paleorange"
 		"pink" "purple" "red" "teal" "violet" "white" "yaru" "yellow"
-    "cat-flamingo" "cat-mauve" "cat-pink" "cat-maroon"
-    "cat-red" "cat-peach" "cat-yellow" "cat-green" "cat-teal" "cat-blue"
-    "cat-sky" "cat-lavender")
+    "cat-latte-rosewater" "cat-latte-flamingo" "cat-latte-pink" "cat-latte-mauve" "cat-latte-red" "cat-latte-maroon" "cat-latte-peach" "cat-latte-yellow" "cat-latte-green" "cat-latte-teal" "cat-latte-sky" "cat-latte-sapphire" "cat-latte-blue" "cat-latte-lavender"
+    "cat-mocha-rosewater" "cat-mocha-flamingo" "cat-mocha-pink" "cat-mocha-mauve" "cat-mocha-red" "cat-mocha-maroon" "cat-mocha-peach" "cat-mocha-yellow" "cat-mocha-green" "cat-mocha-teal" "cat-mocha-sky" "cat-mocha-sapphire" "cat-mocha-blue" "cat-mocha-lavender"
+    "cat-macchiato-rosewater" "cat-macchiato-flamingo" "cat-macchiato-pink" "cat-macchiato-mauve" "cat-macchiato-red" "cat-macchiato-maroon" "cat-macchiato-peach" "cat-macchiato-yellow" "cat-macchiato-green" "cat-macchiato-teal" "cat-macchiato-sky" "cat-macchiato-sapphire" "cat-macchiato-blue" "cat-macchiato-lavender"
+    "cat-frappe-rosewater" "cat-frappe-flamingo" "cat-frappe-pink" "cat-frappe-mauve" "cat-frappe-red" "cat-frappe-maroon" "cat-frappe-peach" "cat-frappe-yellow" "cat-frappe-green" "cat-frappe-teal" "cat-frappe-sky" "cat-frappe-sapphire" "cat-frappe-blue" "cat-frappe-lavender")
 
 	for color in "${valid_colors[@]}"; do
 		if [ -e "$THEME_DIR/48x48/places/folder-$color.svg" ]; then
