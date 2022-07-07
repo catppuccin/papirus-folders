@@ -11,13 +11,13 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/papirus-folders/main/assets/cat-papirus-folders.png"/>
+  <img src="assets/cat-papirus-folders.png"/>
 </p>
 
 
 ## Usage
 
-1. Make sure You have [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) installed.
+1. Make sure You have [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) installed
 2. Clone this repository and change to cloned directory:
     ```
     git clone https://github.com/catppuccin/papirus-folders.git
@@ -40,7 +40,7 @@
     for example: 
     
     `cat-latte-lavender`, `cat-frappe-green`, `cat-macchiato-red`...
-6. Visit [Papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders) to learn more about this script.
+6. Visit [Papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders) to learn more about this script
 
 &nbsp;
 
