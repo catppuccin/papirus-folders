@@ -11,9 +11,27 @@
 </p>
 
 <p align="center">
-  <img src="assets/cat-papirus-folders.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/papirus-folders/main/assets/folders.png"/>
 </p>
 
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+  <img src="https://raw.githubusercontent.com/catppuccin/papirus-folders/main/assets/folders-latte.png"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+  <img src="https://raw.githubusercontent.com/catppuccin/papirus-folders/main/assets/folders-frappe.png"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+  <img src="https://raw.githubusercontent.com/catppuccin/papirus-folders/main/assets/folders-macchiato.png"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+  <img src="https://raw.githubusercontent.com/catppuccin/papirus-folders/main/assets/folders-mocha.png"/>
+</details>
 
 ## Usage
 
