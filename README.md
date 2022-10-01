@@ -60,6 +60,16 @@
     `cat-latte-lavender`, `cat-frappe-green`, `cat-macchiato-red`...
 6. Visit [Papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders) to learn more about this script
 
+### For Arch Linux Users
+
+With your favorite AUR helper, install with:
+
+```sh
+yay -S papirus-folders-catppuccin-git
+```
+
+then you could run `papirus-folders -h` to see all available command. Bash & ZSH completions are included.
+
 &nbsp;
 
 ## 💝 Thanks to
