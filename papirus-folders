@@ -22,7 +22,7 @@ set -o errexit \
 
 readonly THIS_SCRIPT="$(readlink -f "${BASH_SOURCE[0]}")"
 readonly PROGNAME="$(basename "${BASH_SOURCE[0]}")"
-readonly VERSION="1.11.0"
+readonly VERSION="1.12.1"
 readonly -a ARGS=("$@")
 
 msg() {
@@ -116,7 +116,7 @@ _is_valid_color() {
 declare_colors() {
 	local color=''
 	local -a colors=()
-	local -a valid_colors=("black" "blue" "bluegrey" "breeze" "brown"
+	local -a valid_colors=("adwaita" "black" "blue" "bluegrey" "breeze" "brown"
 		"carmine" "cyan" "darkcyan" "deeporange" "green" "grey"
 		"indigo" "magenta" "nordic" "orange" "palebrown" "paleorange"
 		"pink" "purple" "red" "teal" "violet" "white" "yaru" "yellow"
@@ -418,7 +418,7 @@ parse_args() {
 			--default)        args+=( -D ) ;;
 			--restore)        args+=( -R ) ;;
 			--version)        args+=( -V ) ;;
-			--[0-9a-Z]*)
+			--[0-9a-zA-Z]*)
 				err "illegal option -- '$arg'"
 				usage 2
 				;;
