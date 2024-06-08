@@ -50,10 +50,12 @@
     curl -LO https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-folders/master/papirus-folders && chmod +x ./papirus-folders
     ```
 
-   1. Use this script to set color of the folders, for example:
+5. Use this script to set color of the folders, for example:
+    ```
     ./papirus-folders -C cat-mocha-blue --theme Papirus-Dark
     ```
-5. To check all available colors:
+
+6. To check all available colors:
     ```
     ./papirus-folders -l
     ```
@@ -62,7 +64,7 @@
     for example: 
     
     `cat-latte-lavender`, `cat-frappe-green`, `cat-macchiato-red`...
-6. Visit [Papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders) to learn more about this script
+7. Visit [Papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders) to learn more about this script
 
 ### For Arch Linux Users
 
