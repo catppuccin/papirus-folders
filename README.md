@@ -45,8 +45,12 @@
     ```
     sudo cp -r src/* /usr/share/icons/Papirus  
     ```
-4. Use modified `papirus-folders` script to set colors of folders. For example to set Catppuccin-Mocha-Blue folders for Papirus-Dark theme:
+4. Install `papirus-folders` script from [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme):
     ```
+    curl -LO https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-folders/master/papirus-folders && chmod +x ./papirus-folders
+    ```
+
+   1. Use this script to set color of the folders, for example:
     ./papirus-folders -C cat-mocha-blue --theme Papirus-Dark
     ```
 5. To check all available colors:
